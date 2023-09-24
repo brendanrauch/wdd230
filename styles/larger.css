@@ -1,8 +1,6 @@
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 640px) {
     
     nav ul {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
 		display: flex;
         justify-content: space-evenly;
 	}
@@ -20,7 +18,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: .20fr .20fr;
-        text-align: center;
+
     }
 
     main h2 {
