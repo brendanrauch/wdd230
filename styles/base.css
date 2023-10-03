@@ -7,7 +7,7 @@
 }
 
 header {
-    background: #628f58;
+    background: #79a470;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,7 +93,7 @@ p {
 .card {
     padding: .5rem;
     margin: 1.5rem;
-    background-color: #628f58;
+    background-color: #79a470;
     border-style: solid;
     border-color: black;
     border-width: .25rem;
