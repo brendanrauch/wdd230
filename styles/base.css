@@ -39,7 +39,7 @@ header div {
 }
 
 nav {
-    background-color: rgb(134, 134, 134);
+    background-color: rgb(179, 178, 178);
     margin: 0 auto;
 	max-width: 800px;
 }
@@ -80,6 +80,15 @@ main {
 
 main ul {
     list-style-type: none;
+}
+
+main li a {
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+}
+
+main li a:hover {
+    color: rgb(255, 255, 255);
 }
 
 h1, h2, h3 {
@@ -123,7 +132,7 @@ main h2 {
 }
 footer {
     text-align: center;
-    background-color: rgb(134, 134, 134);
+    background-color: rgb(179, 178, 178);
     margin: .25rem;
     padding: .5rem;
     max-width: 800px;
