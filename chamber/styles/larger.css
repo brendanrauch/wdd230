@@ -1,5 +1,37 @@
 @media only screen and (min-width: 32em) {
+
+    #menu {
+        display: none;
+    }
+    
+    #spot-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #event-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #spot-grid div, #event-grid div {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+
+	nav ul li {
+		flex: 1 1 100%;
+        display: block;
+	}
+
+
     ul {
         flex-direction: row;
+        justify-content: space-evenly;
     }
+
+
+
+
 }

@@ -1,12 +1,95 @@
-li {
-    list-style: none;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@300&family=Open+Sans&family=Roboto+Slab&display=swap');
+
+body {
+    font-family: "Open sans";
+    max-width: 64rem;
+    margin: 0 auto;
 }
 
-li a {
+img {
+    max-width: 50rem;
+    display: block;
+    margin: auto;
+}
+
+#hero a {
     text-decoration: none;
+    color: black;
+    background-color: #ab90ae;
+    padding: 1rem;
+}
+
+#hero a:hover {
+    background-color: #623b5a;
+    color: white;
+}
+
+nav {
+    background-color: #9ec882;
+    margin: 1rem;
+}
+
+nav a {
+    background-color: #ab90ae;
+    text-decoration: none;
+    color: black;
+    font-family: "bebas neue";
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+}
+
+a:hover {
+    background-color: #623b5a;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bebas neue";
+}
+
+header, footer, section div {
+    background-color: #9ec882;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+li {
+    list-style: none;
+    display: none;
 }
 
 ul {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    padding: 0rem;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: #eee;
+	color: #000;
+ 	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❌";
+}
+
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
 }
