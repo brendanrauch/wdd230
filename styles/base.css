@@ -218,6 +218,17 @@ main h2 {
 #grid2 p {
     margin: 1rem;
 }
+
+iframe {
+    margin: 10px auto;
+	border: 1px solid rgba(0,0,0,.1);
+	height: 300px;
+    max-width: 670px;
+	margin: 0 auto;
+    display: block;
+
+}
+
 footer {
     text-align: center;
     background-color: rgb(179, 178, 178);
