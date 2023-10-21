@@ -55,6 +55,10 @@ header, footer, section div {
     margin: 1rem;
 }
 
+header {
+    text-align: center;
+}
+
 li {
     list-style: none;
     display: none;
@@ -92,4 +96,19 @@ ul {
 }
 .open li a {
 	display: block;
+}
+
+#griddiscover {
+    padding: 1rem;
+    margin: 1rem;
+    grid-row-gap: 1rem;
+}
+
+#img1 img {
+    margin: auto;
+    margin-top: 1rem;
+}
+
+main {
+    max-width: 64rem;
 }

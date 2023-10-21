@@ -31,7 +31,40 @@
         justify-content: space-evenly;
     }
 
+    #griddiscover {
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
 
+    #firstbox {
+        grid-column: 1;
+        grid-row: 1; 
+    }
+    
+    #secondbox {
+        grid-column: 1;
+        grid-row: 2; 
+    }
+    
+    #calander {
+        grid-column: 1;
+        grid-row: 3; 
+    }
 
+    #img1 {
+        grid-column: 2;
+        grid-row: 1/4;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: auto;
+    }
 
+    #img1 img {
+        margin: auto;
+        margin-top: 1rem;
+    }
+  
 }
