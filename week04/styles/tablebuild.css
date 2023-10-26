@@ -1,0 +1,38 @@
+tr, th, td {
+    /* border: 1px solid black; */
+}
+
+caption {
+    color: black;
+    caption-side: bottom;
+    padding: .5em;
+}
+
+table {
+    margin: 0 auto;
+}
+
+thead, table {
+    background-color: black;
+    color: #fff;
+
+}
+
+td, th {
+    padding: .7em;
+}
+
+tbody {
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(237, 227, 227);
+}
+
+.gray {
+    background-color: #333;
+}
