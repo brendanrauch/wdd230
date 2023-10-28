@@ -1,0 +1,8 @@
+div {
+    margin: .25em;
+}
+
+label {
+    display: inline;
+    max-width: 2.5em;
+}
