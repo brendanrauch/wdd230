@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rancho Cucamonga Chamber Home Page">
+    <meta name="author" content="Brendan Rauch">
+    <meta name="type" content="website">
+    <meta name="url" content="https://brendanrauch.github.io/wdd230/chamber/">
+    <title>Rancho Cucamonga Chamber of Commerce - Join Page</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/chamber_fav.ico">
+</head>
+<body>
+    <header>
+        <h1>Rancho Cucamonga Chamber of Commerce</h1>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    <main id="joinGrid">
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label id="fname">First Name* <input type="text" name="fname" required></label>
+                <label id="lname">Last Name* <input type="text" name="lname" required></label>
+                <label id="position">Business Position <input type="text" name="position" pattern="[A-Z a-z -]{7,}"><span>*Only accepts characters, hyphens, and spaces with a minimum of seven characters</span></label>
+                <label id="email">Email* <input type="email" name="email" placeholder="someone@gmail.com" title="Please enter a valid email address" required></label>
+                <label id="phone">Phone number* <input type="tel" name="phone" required></label>
+            </fieldset>
+            <fieldset class="inputFormat">
+                <legend>Business Information</legend>
+                <label id="businessName">Name <input type="text" name="businessName" required></label>
+                <label id="description">Description <textarea id="textBox" rows="3" name="description"></textarea></label>
+            </fieldset>
+            <fieldset class="radioFormat">
+                <legend>Membership Level</legend>
+                <label><input type="radio" name="membership" value="Non profit Organization"> Non profit Organization</label>
+                <label><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                <label><input type="radio" name="membership" value="silver"> Silver Membership</label>
+                <label><input type="radio" name="membership" value="gold"> Gold Membership</label>
+            </fieldset>   
+            <label><input type="hidden" id="timestamp" name="timestamp"></label> 
+            <div id="submit">
+                <input  type="submit" value="Join Chamber">
+            </div>
+        </form>
+        <section>
+            <div>
+                <h2>Non profit organization</h2>
+                <p>Price: no charge</p>
+                <p>Includes all benefits such as access to special events,
+                    training, and advertising on the chamber site. 
+                </p>
+            </div>
+            <div>
+                <h2>Bronze Membership</h2>
+                <p>Price: $50/month</p>
+                <p>Includes access to special events.</p>
+            </div>
+            <div>
+                <h2>Silver Membership</h2>
+                <p>Price: $125/month</p>
+                <P>Includes access to special events and training.</P>
+            </div>
+            <div>
+                <h2>Gold Membership</h2>
+                <p>Price: $200/month</p>
+                <p>Includes all benefits such as access to special events,
+                    training, and advertising on the chamber site.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <h2>Contact Information</h2>
+            <p>ranchocucamonga@gmail.com</p>
+            <p>999-999-9999</p>
+        </section>
+        <p>©<span id="currentYear"></span> | Brendan Rauch | WDD230 Project</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/chamber.js"></script>
+</body>
+</html>

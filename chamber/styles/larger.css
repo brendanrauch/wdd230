@@ -71,4 +71,14 @@
         box-shadow:0 0 50px #333;
     }
 
+    #joinGrid {
+        display: grid;
+        grid-template-columns: 1fr .75fr;
+    }
+
+    #center {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
 }

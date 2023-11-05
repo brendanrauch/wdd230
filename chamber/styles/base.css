@@ -112,3 +112,67 @@ ul {
 main {
     max-width: 64rem;
 }
+
+form{
+    background-color: #ab90ae;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin: 1rem;
+
+}
+
+fieldset{
+    margin: 1rem;
+}
+
+label {
+    margin: 1rem;
+    display: block;
+    margin-left: 1rem;
+}
+
+input, #textBox {
+    margin: .4rem;
+    padding: .25rem;  
+    width: 100%;
+    min-height: 44px;
+
+}
+
+legend {
+    margin: .5rem;
+    margin-bottom: 0;
+    padding: .5rem;
+}
+
+.radioFormat input {
+    width: 20px;
+    height:  20px;
+    vertical-align: middle;
+    margin: 0;
+}
+
+#submit {
+    max-width: 10rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#submit input {
+    background-color: #000;
+    color: #eee;
+}
+
+#submit input:hover {
+    background-color: #eee;
+    color: #000;
+}
+
+#center {
+    text-align: center;
+    padding: 2rem;
+    border: #000 solid;
+    margin: 1rem;
+}
