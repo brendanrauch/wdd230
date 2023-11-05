@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="images/rsz_1rsz_me.webp" alt="Picture of Me" id="picOfMe">
+            <h1> Brendan Rauch</h1>
+        </div>
+        <!-- <div id="mode">
+            ☑️
+        </div> -->
+    </header>
+    <nav>
+        <button id ="menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="chamber">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="form.html" class="active">Form</a></li>
+        </ul>
+    </nav>
+    <div id="formmessage"></div>
+    <form method="get" action="record.html">
+        <fieldset>
+            <legend>Applicant Information</legend>
+            <label id="uname">UserName* <input type="text" name="uname" required></label>
+            <label for="password1">Password*
+            <input type="password" id="password1" name="password" pattern="(?=.*[0-9])(?=.*[a-zA-Z])[a-zA-Z0-9]{8,}" title="The user inputted value must be at least eight (8) characters long and can only be alpha-numeric" placeholder="Must be at least eight (8) characters long and can only be alpha-numeric" required></label>
+            <label for="password2">Re-enter Password*
+            <input type="password" id="password2" pattern="(?=.*[0-9])(?=.*[a-zA-Z])[a-zA-Z0-9]{8,}" name="password" title="Must Match First Password" placeholder="Must Match First Password" required></label>
+            <label id="email">Email* <input type="email" name="email" placeholder="someone@byui.edu"  pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" required></label>
+            <label for="r">Page Rating:</label>
+                <div id="rangevalue">1</div>
+                <input type="range" id="r" name="r" min="1" max="10" value="1" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+            
+        </fieldset>
+        <div id="submit">
+            <input  type="submit" value="Make Account">
+        </div>
+    </form>
+    <footer>
+        <p>©<span id="currentYear"></span> | Brendan Rauch | USA</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+</html>
