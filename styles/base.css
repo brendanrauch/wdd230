@@ -226,6 +226,7 @@ iframe {
     max-width: 670px;
 	margin: 0 auto;
     display: block;
+    padding-bottom: .5rem;
 
 }
 
