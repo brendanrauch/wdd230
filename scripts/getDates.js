@@ -76,10 +76,43 @@ function displayResults(weatherData) {
 const baseURL = "https://brendanrauch.github.io/wdd230/";
 const linksURL = "https://brendanrauch.github.io/wdd230/data/links.json";
 
+const cards = document.querySelector('#cards');
+
+const displayLinks = (weeks) => {
+    weeks.forEach((week) => {
+        // Create elements to add to the div.cards element
+        let card = document.createElement('section');
+        let weekf = document.createElement('h2');
+		let linksf = document.createElement('h2');		
+
+
+        weekf.textContent = `Week: ${week.week}`;
+		linksf.textContent = ` ${week.links}`;
+		card.appendChild(weekf);
+		card.appendChild(linksf);
+
+		// weeks.forEach ((links) => {
+		// 	let linksf = document.createElement('h2');	
+		// 	linksf.setAttribute('href', `${baseURL}${url}`)
+		// 	linksf.textContent = `${title}`;
+		// 	card.appendChild(linksf);
+		// 	}
+		// )        
+
+        cards.appendChild(card);
+    }); // end of arrow function and forEach loop
+  }
+
+
+
+
 async function getLinks() {
 	const response = await fetch(linksURL);
 	const data = await response.json();
-	console.log(data);
+	// console.log(data);
+	displayLinks(data.weeks);
+	console.log()
   }
   
   getLinks();
+

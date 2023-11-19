@@ -4,12 +4,12 @@
         "week": "Week 1",
         "links": [
           {
-            "url":"week01/holygrail.html",
-            "title":"Holy Grail"
+            "url": "week01/holygrail.html",
+            "title": "Holy Grail"
           },
           {
-            "url":"week01/media-query.html",
-            "title":"mQueries"
+            "url": "week01/media-query.html",
+            "title": "mQueries"
           }
         ]
       },
@@ -17,16 +17,16 @@
         "week": "Week 2",
         "links": [
           {
-            "url":"week02/bom.html",
-            "title":"DOM Manipilation"
+            "url": "week02/bom.html",
+            "title": "DOM Manipilation"
           },
           {
-            "url":"week02/design.html",
-            "title":"Design"
+            "url": "week02/design.html",
+            "title": "Design"
           },
           {
-            "url":"https://codepen.io/Brendan-Rauch/pen/bGOKLaW",
-            "title":"Hamburger Menu"
+            "url": "https://codepen.io/Brendan-Rauch/pen/bGOKLaW",
+            "title": "Hamburger Menu"
           }
         ]
       },
