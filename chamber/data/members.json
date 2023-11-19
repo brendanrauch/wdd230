@@ -1,0 +1,101 @@
+[
+    {
+        "name": "CAWEB",
+        "address": {
+            "street1": "2115 S Vista Ave",
+            "street2": "",
+            "city": "Rancho Cucamonga",
+            "state": "CA",
+            "zip": "91739"
+        },
+        "phone": "909-342-9386",
+        "url": "https://californiawebsitses.com/",
+        "imageUrl": "https://cdt.ca.gov/services/wp-content/uploads/sites/2/2017/02/department-of-technology-logo-slogan.png",
+        "memberShipLevel": "Gold"
+    },
+    {
+        "name": "Surge Web Design",
+        "address": {
+            "street1": "42072 E Arch Drive",
+            "street2": "",
+            "city": "Rancho Cucamonga",
+            "state": "CA",
+            "zip": "91739"
+        },
+        "phone": "909-402-1305",
+        "url": "https://www.surgewebdesign.com/",
+        "imageUrl": "https://res2.yourwebsite.life/res/64f0432be8a018001782f724/651b4a3a29bc310016db6043_optimized_217.webp",
+        "memberShipLevel": "Silver"
+    },
+    {
+        "name": "Greaphiczen",
+        "address": {
+            "street1": "1788 E Summerplace Court",
+            "street2": "",
+            "city": "Rancho Cucamonga",
+            "state": "CA",
+            "zip": "91739"
+        },
+        "phone": "909-432-8645",
+        "url": "https://graphiczen.com/",
+        "imageUrl": "https://ekj86sgr4v6.exactdn.com/wp-content/uploads/2020/07/Graphic_Zen_logo_white.svg",
+        "memberShipLevel": "Bronze"
+    },
+    {
+        "name": "Peppershock Media",
+        "address": {
+            "street1": "1215 3rd Street",
+            "street2": "",
+            "city": "Rancho Cucamonga",
+            "state": "CA",
+            "zip": "91739"
+        },
+        "phone": "909-461-5070",
+        "url": "https://www.peppershock.com/",
+        "imageUrl": "https://peppershock.com/wp-content/uploads/2022/12/final-full.svg",
+        "memberShipLevel": "Silver"
+    },
+    {
+        "name": "Flash Tech Services",
+        "address": {
+            "street1": "525 Star Rd ",
+            "street2": "",
+            "city": "Rancho Cucamonga",
+            "state": "CA",
+            "zip": "91739"
+        },
+        "phone": "909-488-5810",
+        "url": "https://flashtechnicalservices.com/",
+        "imageUrl": "https://flashtechnicalservices.com/wp-content/uploads/2021/01/FTS-header-1-1.png",
+        "memberShipLevel": "Gold"
+    },
+    {
+        "name": "In-N-Out",
+        "address": {
+            "street1": "8955 Foothill Blvd.",
+            "street2": "",
+            "city": "Rancho Cucamonga",
+            "state": "CA",
+            "zip": "91730"
+        },
+        "phone": "909-796-1000",
+        "url": "https://in-n-out.com/",
+        "imageUrl": "https://www.in-n-out.com/ResourcePackages/INNOUT/content/images/75th-logo.png?package=INNOUT",
+        "memberShipLevel": "Gold"
+    },
+    {
+        "name": "Metro Express",
+        "address": {
+            "street1": "1725 E Overland Road",
+            "street2": "",
+            "city": "Rancho Cuamonga",
+            "state": "CA",
+            "zip": "91739"
+        },
+        "phone": "909-888-4076",
+        "url": "https://www.metroexpresscarwash.com/",
+        "imageUrl": "https://www.metroexpresscarwash.com/wp-content/uploads/cropped-Metro-Express-Sparkle-Logo-1024x708.png",
+        "memberShipLevel": "Gold"
+    }
+
+]
