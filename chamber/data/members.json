@@ -1,4 +1,5 @@
-[
+{
+"members": [
     {
         "name": "CAWEB",
         "address": {
@@ -38,7 +39,7 @@
         },
         "phone": "909-432-8645",
         "url": "https://graphiczen.com/",
-        "imageUrl": "https://ekj86sgr4v6.exactdn.com/wp-content/uploads/2020/07/Graphic_Zen_logo_white.svg",
+        "imageUrl": "https://graphiczen.cayzu.com/files/17902/eb189119-5f81-41f9-ac94-454d71fa8259/brands/61267/8c85a49e-e045-49da-86a9-ce01feb265c8.png",
         "memberShipLevel": "Bronze"
     },
     {
@@ -99,3 +100,4 @@
     }
 
 ]
+}
