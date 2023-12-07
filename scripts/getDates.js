@@ -82,23 +82,27 @@ const displayLinks = (weeks) => {
     weeks.forEach((week) => {
         // Create elements to add to the div.cards element
         let card = document.createElement('section');
-        let weekf = document.createElement('h2');
-		let linksf = document.createElement('h2');		
+        let weekf = document.createElement('li');
+		// let linksf = document.createElement('h2');		
 
+        weekf.textContent = `${week.week}`;
 
-        weekf.textContent = `Week: ${week.week}`;
-		linksf.textContent = ` ${week.links}`;
+		// linksf.textContent = ` ${week.links}`;
+		
+		// card.appendChild(linksf);
 		card.appendChild(weekf);
-		card.appendChild(linksf);
+		week.links.forEach ((link) => {
+			let linksf = document.createElement('a');	
 
-		// weeks.forEach ((links) => {
-		// 	let linksf = document.createElement('h2');	
-		// 	linksf.setAttribute('href', `${baseURL}${url}`)
-		// 	linksf.textContent = `${title}`;
-		// 	card.appendChild(linksf);
-		// 	}
-		// )        
+			
 
+			linksf.textContent = `${link.title}`;
+			linksf.setAttribute('href', `${link.url}`);
+
+			card.appendChild(linksf);
+		});   
+		 
+		
         cards.appendChild(card);
     }); // end of arrow function and forEach loop
   }

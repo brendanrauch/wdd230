@@ -155,6 +155,8 @@ nav ul {
 }
 
 
+
+
 main {
     display: grid;
     grid-template-rows: .20fr .20fr;
