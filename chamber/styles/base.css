@@ -281,3 +281,8 @@ img {
 	height: 75px;
 	max-width: 100%; /* Images are jerks - Seattle*/
 }
+
+#calander img {
+    width: 12rem;
+    height: auto;
+}

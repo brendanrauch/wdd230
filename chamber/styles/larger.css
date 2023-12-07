@@ -52,19 +52,26 @@
         grid-row: 3; 
     }
 
+   
+
     #img1 {
         grid-column: 2;
         grid-row: 1/4;
         align-content: center;
         align-items: center;
         text-align: center;
-        justify-content: center;
+        justify-content: space-between;
         height: auto;
+
+        
+        
     }
 
     #img1 img {
-        margin: auto;
-        margin-top: 1rem;
+        margin-top: 3.5rem;
+    
+
+       
     }
 
     #img1 img:hover {
