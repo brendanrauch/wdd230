@@ -200,6 +200,30 @@ p {
     
 }
 
+
+
+.card h3 {
+    font-size: 1.6rem;
+}
+
+.card li {
+    margin: .5rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.card a {
+    text-decoration: none;
+    padding: .5rem;
+    margin-bottom: 1.5rem;
+    color: #000;
+}
+
+.card a:hover {
+    background-color: #eee;
+    
+}
+
 main h2 {
     grid-row: 1/2;
 }
