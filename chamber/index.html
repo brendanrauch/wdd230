@@ -18,6 +18,10 @@
     <link rel="icon" href="images/chamber_fav.ico">
 </head>
 <body>
+    <div id="banner">
+        <button id="button">❌</button>
+        <p>Come join us for the Chamber of commerce meet and greet on Wednesday at 7:00 p.m.  All are Welcome</p>
+    </div>
     <header>
         <h1>Rancho Cucamonga Chamber of Commerce</h1>
     </header>
@@ -33,32 +37,33 @@
     <main>
         <section id="hero">
             <img src="images/hero.jpg" alt="Image of Rancho Cucamonga">
-            <h2>Welcome</h2>
-            <a href="">Join Now</a>
+            <div>
+                <h2>Welcome</h2>
+                <a href="join.html">Join Now</a>
+            </div>
         </section>
         <section id="event-grid">
             <div>
                 <h2>Current events</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam aperiam possimus mollitia inventore, vero nemo labore repellendus tempore sunt repudiandae esse facere, ut, animi autem architecto cupiditate ipsam ab consequatur!</p>
             </div>
-            <div>
+            <div class="weather">
                 <h2>Weather</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam aperiam possimus mollitia inventore, vero nemo labore repellendus tempore sunt repudiandae esse facere, ut, animi autem architecto cupiditate ipsam ab consequatur!</p>
+                <p>The current temperature in Rancho Cucamonga, California is <span id="temp"></span> </p>
+                <div>
+                    <img src="" alt="" id="weather-icon">
+                    <p id="cond"></p>
+                </div>
+                <p>Number of Visits: <span class="visits"></span></p>
+            </div>
+        </section>
+        <section> 
+            <div class="colored weather forecast">
+                <h3>3-Day Forecast</h3>
             </div>
         </section>
         <section id="spot-grid">
-            <div>
-                <h2>Spotlight 1</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam aperiam possimus mollitia inventore, vero nemo labore repellendus tempore sunt repudiandae esse facere, ut, animi autem architecto cupiditate ipsam ab consequatur!</p>
-            </div>
-            <div>
-                <h2>Spotlight 2</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam aperiam possimus mollitia inventore, vero nemo labore repellendus tempore sunt repudiandae esse facere, ut, animi autem architecto cupiditate ipsam ab consequatur!</p>
-            </div>
-            <div>
-                <h2>Spotlight 3</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam aperiam possimus mollitia inventore, vero nemo labore repellendus tempore sunt repudiandae esse facere, ut, animi autem architecto cupiditate ipsam ab consequatur!</p>
-            </div>
+            <div class="spotlight"></div>
         </section>
     </main>
     <footer>
@@ -71,5 +76,6 @@
         <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
     <script src="scripts/chamber.js"></script>
+    <script src="scripts/visits.js"></script>
 </body>
 </html>

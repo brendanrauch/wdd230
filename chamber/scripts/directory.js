@@ -75,3 +75,7 @@ function showList() {
 	display.classList.add("list");
 	display.classList.remove("grid");
 }
+
+document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+
+document.getElementById("lastModified").innerHTML = document.lastModified;

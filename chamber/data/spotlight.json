@@ -1,0 +1,67 @@
+{
+    "business": [
+      {
+        "name": "CAWEB",
+        "email": "customerservice@CAWEB.com",
+        "number": "909-342-9386",
+        "website": "https://stores.claires.com/us/id/rexurg/673.html",
+        "imageurl": "https://cdt.ca.gov/services/wp-content/uploads/sites/2/2017/02/department-of-technology-logo-slogan.png",
+        "title": "California Department of Technology",
+        "membership": "Gold"
+      },
+      {
+        "name": "Surge Web Design ",
+        "email": "surgewebdesign.com",
+        "number": "909-402-1305",
+        "website": "https://www.surgewebdesign.com/",
+        "imageurl": "https://res2.yourwebsite.life/res/64f0432be8a018001782f724/651b4a3a29bc310016db6043_optimized_217.webp",
+        "title": "Your one-stop shop for designing your business's online presence",
+        "membership": "Silver"
+      },
+      {
+        "name": "Graphic Zen",
+        "email": "none",
+        "number": "909-432-8645",
+        "website": "https://graphiczen.com/",
+        "imageurl": "https://graphiczen.cayzu.com/files/17902/eb189119-5f81-41f9-ac94-454d71fa8259/brands/61267/8c85a49e-e045-49da-86a9-ce01feb265c8.png",
+        "title": "Minimalist graphic design consultants",
+        "membership": "Bronze"
+      },
+      {
+        "name": "Peppershock Media",
+        "email": "peppershockmedia.com",
+        "number": "909-461-5070",
+        "website": "https://www.peppershock.com/",
+        "imageurl": "https://peppershock.com/wp-content/uploads/2022/12/final-full.svg",
+        "title": "Creates shocking advertisements and commercials!",
+        "membership": "Silver"
+      },
+      {
+        "name": "Flash Tech Services",
+        "email": "flashtechservices.com",
+        "number": "909-488-5810",
+        "website": "https://flashtechnicalservices.com/",
+        "imageurl": "https://flashtechnicalservices.com/wp-content/uploads/2021/01/FTS-header-1-1.png",
+        "title": "Quick and easy technological services!",
+        "membership": "Gold"
+      },
+      {
+        "name": "In-N-Out",
+        "email": "in-n-outcustomers.com",
+        "number": "909-796-1000",
+        "website": "https://in-n-out.com/",
+        "imageurl": "https://www.in-n-out.com/ResourcePackages/INNOUT/content/images/75th-logo.png?package=INNOUT",
+        "title": "At In-N-Out Burger, quality is everything.",
+        "membership": "Gold"
+      },
+      {
+        "name": "Metro Express",
+        "email": "metroexpresscustomer.com",
+        "number": "909-888-4076",
+        "website": "https://www.metroexpresscarwash.com/",
+        "imageurl": "https://www.metroexpresscarwash.com/wp-content/uploads/cropped-Metro-Express-Sparkle-Logo-1024x708.png",
+        "title": "You'll get the best shine you'll ever see!",
+        "membership": "Gold"
+      }
+    ]
+}

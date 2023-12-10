@@ -4,10 +4,6 @@
         display: none;
     }
     
-    #spot-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
 
     #event-grid {
         display: grid;
@@ -86,6 +82,36 @@
     #center {
         max-width: 500px;
         margin: 0 auto;
+    }
+
+    .forecast {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 2.5fr;
+        margin: 0rem;
+        padding: 1rem;
+    }
+
+    .forecast h3:nth-child(1) {
+        grid-column: 1/4;
+    }
+
+    
+
+    .weather {
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    .spotlight {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        align-content: center;
+        align-self: center;
+
     }
 
 }

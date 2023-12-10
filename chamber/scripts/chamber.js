@@ -24,7 +24,7 @@ if (numVisits !==0)
 		visit.textContent = "Back so soon! Awesome!"
 	}
 	else {
-		if (timeBetween = 1) {
+		if (timeBetween == 1) {
 			visit.textContent = "You last visited " + timeBetween + " day ago."
 		}
 		else {
@@ -37,3 +37,7 @@ else {
 numVisits++;
 localStorage.setItem("lastVisit", Date.now());
 localStorage.setItem("visitls", numVisits);
+
+
+
+
